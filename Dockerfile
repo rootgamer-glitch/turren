@@ -10,7 +10,6 @@ ENV TZ=Asia/Kolkata
 
 RUN apt -qq update --fix-missing && \
     apt -qq install -y git \
-    aria2 \
     wget \
     curl \
     busybox \
